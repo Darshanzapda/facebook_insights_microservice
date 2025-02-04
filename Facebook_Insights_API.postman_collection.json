@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "36aa8fe4-9be7-4a38-9842-eb68f28712a2",
+		"name": "data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38322687"
+	},
+	"item": [
+		{
+			"name": "registerdata",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/page/theboatlifestyle",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"page",
+						"theboatlifestyle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
