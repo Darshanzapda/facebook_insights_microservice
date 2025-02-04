@@ -1,0 +1,31 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and temp files
+logs/
+*.log
+
+# Ignore database dumps
+dump.rdb
+
+# Ignore ChromeDriver
+chromedriver.exe
+
+# Ignore system files
+.DS_Store
+*.log
+.env
+.venv/
+venv/
