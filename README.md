@@ -91,5 +91,4 @@ A **Postman Collection JSON file** is attached to help with testing the API easi
 
 ---
 
-## Happy Coding! 🚀
-
+Happy Coding! 🚀
