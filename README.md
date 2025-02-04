@@ -9,7 +9,17 @@ The **Facebook Insights Microservice** is a **FastAPI**-based application design
 - **REST APIs**:
   - **GET**: Retrieve insights data for a given Facebook page username.
   - **POST**: Scrape and store Facebook page insights by providing a username.
-
+- **Scraped Data Includes:**
+  - **Basic Page Details**:
+    - ID
+    - Username
+    - Name
+    - Page URL
+    - Profile Picture
+    - Category
+    - Total Followers
+    - Total Likes
+  
 ---
 
 ## Installation
@@ -91,4 +101,5 @@ A **Postman Collection JSON file** is attached to help with testing the API easi
 
 ---
 
-Happy Coding! 🚀
+## Happy Coding! 🚀
+
