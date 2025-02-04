@@ -21,7 +21,7 @@ git clone https://github.com/Darshanzapda/facebook_insights_microservice.git
 ```
 
 ```
-cd facebook-insights-microservice
+cd facebook_insights_microservice
 ```
 
 #### 2. Create and Activate a Virtual Environment
