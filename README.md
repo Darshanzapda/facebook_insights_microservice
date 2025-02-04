@@ -17,7 +17,10 @@ The **Facebook Insights Microservice** is a **FastAPI**-based application design
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/Darshanzapda/facebook-insights-microservice.git
+git clone https://github.com/Darshanzapda/facebook_insights_microservice.git
+```
+
+```
 cd facebook-insights-microservice
 ```
 
