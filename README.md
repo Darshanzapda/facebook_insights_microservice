@@ -17,7 +17,7 @@ The **Facebook Insights Microservice** is a **FastAPI**-based application design
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/facebook-insights-microservice.git
+git clone https://github.com/Darshanzapda/facebook-insights-microservice.git
 cd facebook-insights-microservice
 ```
 
@@ -37,6 +37,7 @@ pip install -r requirements.txt
 
 #### 4. Set Up MongoDB
 - Install MongoDB locally or use **MongoDB Atlas** for a cloud-based solution.
+- **Use MongoDB Compass** for an easy-to-use GUI to manage and explore your MongoDB data.
 - If using local MongoDB, start the server:
 ```bash
 mongod --dbpath /data/db
@@ -55,9 +56,9 @@ uvicorn app.main:app --reload
 
 ## API Usage
 
-### **1. Scrape Facebook Insights**
+### **1. Scrape Facebook Insights** (Tested in Postman)
 #### **POST** `/scrape`
-To scrape and store Facebook page insights, send a **POST** request to:
+To scrape and store Facebook page insights, send a **POST** request in **Postman** to:
 
 **Endpoint:**
 ```http
@@ -73,15 +74,20 @@ http://127.0.0.1:8000/scrape
 
 ---
 
-### **2. Retrieve Insights for a Facebook Page**
+### **2. Retrieve Insights for a Facebook Page** (Tested in Postman)
 #### **GET** `/page/{username}`
-To retrieve stored insights for a specific Facebook page, send a **GET** request to:
+To retrieve stored insights for a specific Facebook page, send a **GET** request in **Postman** to:
 
 **Endpoint:**
 ```http
 http://127.0.0.1:8000/page/{username}
 ```
 Replace `{username}` with the actual Facebook page username.
+
+---
+
+## Postman Collection
+A **Postman Collection JSON file** is attached to help with testing the API easily.
 
 ---
 
